@@ -1,0 +1,9 @@
+[package]
+name = "leecors"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+graphql_client = { version = "0.x", features = ["reqwest", "reqwest-blocking"] }
+reqwest = { version = "0.x", features = ["json", "blocking"] }
+serde = { version = "1.x", features = ["derive"] }

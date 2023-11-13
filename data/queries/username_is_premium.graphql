@@ -1,0 +1,6 @@
+query UsernameIsPremium {
+  user {
+    username
+    isCurrentUserPremium
+  }
+}
